@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.719);
+    padding: 35px;
+    top: 0;
+   width: 100%;
+   position: fixed;
+}
+
+.menu{
+    float: right;
+    margin-right: 20px;
+    
+}
+
+.menu li{
+    list-style:none;
+    display:inline-block;
+    margin:20px;
+    margin-right: 60px;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.banner{
+    background-image: url(imagens/laguna-del-inca-lake-surrounded-by-high-mountains-covered-in-snow-in-chile.jpg);
+    width: 100%;
+    height: 600px;
+    padding-top: 200px;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(70, 70, 100);
+}
+.banner p{ 
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    color: white;
+    line-height: 150%;
+    max-width: 70ch;
+}
+
+.container{
+    padding-top: 50px;
+    margin: auto;
+    width: 1000px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.card {
+    background-color: rgb(70, 70, 100);
+    padding-bottom: 3px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px grey;
+    margin-bottom: 40px;
+    margin-right: 10px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    width: 300px;
+    height: 300px;
+}
+
+.grid .coluna{
+    text-align: center;
+    margin: 10px;
+}
+
+.card p{
+    color: white;
+    font-size: 25px;
+}
