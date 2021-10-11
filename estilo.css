@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
     background-color: rgba(0, 0, 0, 0.719);
@@ -31,15 +32,16 @@ header{
 }
 
 .banner{
-    background-image: url(imagens/laguna-del-inca-lake-surrounded-by-high-mountains-covered-in-snow-in-chile.jpg);
+    background-image: url(imagens/imagem4.jpg);
     width: 100%;
     height: 600px;
     padding-top: 200px;
 }
 
-h2{
+.banner h2{
+    padding-top: 50px;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     color: rgb(70, 70, 100);
 }
 .banner p{ 
@@ -51,10 +53,17 @@ h2{
     max-width: 70ch;
 }
 
-.container{
+.produtos h2{
     padding-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(70, 70, 100);
+}
+.container{
+    padding-top: 100px;
     margin: auto;
     width: 1000px;
+    padding-bottom: 150px;
 }
 
 .grid{
@@ -86,4 +95,74 @@ h2{
 .card p{
     color: white;
     font-size: 25px;
+}
+
+.promo{ 
+    background-image: url(imagens/imagem7.jpg);;
+    width: 100%;
+    height: 800px;
+    
+    
+}
+
+.promo h2,h1{
+    text-align: center;
+    font-size: 65px;
+    color:black;
+    padding-top: 200px;
+}
+
+.promo h1{
+    padding-top: 50px;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.parcerias h2 {
+    font-size: 70px;
+    padding-top: 100px;
+    text-align: center;
+    
+}
+
+.local{
+    background-image: url(imagens/imagem6.jpg);
+    
+}
+
+.local h2{
+    text-align: center;
+    font-size: 65px;
+    color: black;
+    
+}
+.imgref p {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.imgref a{
+    text-decoration: none;
+    color: rgb(70, 70, 100);
+    
+}
+.imgref h3{
+    font-size: 35px;
+    color: black;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+    opacity: 70%;
+    font-size: 20px;
 }
