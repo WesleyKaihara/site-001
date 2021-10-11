@@ -6,6 +6,3 @@
 
 - Comandos básicos do git : `git init, git commit -m, git staus, git push`
 
-
-
-
